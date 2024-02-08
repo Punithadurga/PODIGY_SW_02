@@ -25,18 +25,6 @@ def guess_the_number():
             print("Too low! Try again.")
         else:
             print("Too high! Try again.")
-    # Check if the user wants to quit
-    print('If you want to stop, enter "Q" or "Quit"; otherwise, press enter.')
-    exit_choice = input()
-    
-    try:
-        if exit_choice.lower() in ('q', 'quit'):
-            print("Thanks for playing! Exiting the game.")
-            exit()
-        
-    except:
-        print("Continuing the game...")
-    
-
+   
 if __name__ == "__main__":
     guess_the_number()
